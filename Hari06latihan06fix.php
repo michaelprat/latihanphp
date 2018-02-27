@@ -12,7 +12,7 @@ Latihan looping
 $batasatas=9;
 $batastengah=5;
 
-for($x=0;$x<$batasatas;$x++)
+for($x=0;$x<=$batasatas;$x++)
 {
     if($x<5)
     {
