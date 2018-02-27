@@ -12,9 +12,9 @@ Latihan looping
 $batasatas=9;
 $batastengah=5;
 
-for($x=0;$x<=$batasatas;$x++)
+for($x=0;$x<$batasatas;$x++)
 {
-    if($x<5)
+    if($x<4)
     {
     echo"*<br>";
     }
@@ -23,7 +23,7 @@ for($x=0;$x<=$batasatas;$x++)
   
     for($y=0;$y<$batastengah;$y++)
      {
-     if($x==5 || $y==0 || $y==$batastengah-1) {echo"*";}
+     if($x==4 || $y==0 || $y==$batastengah-1) {echo"*";}
      else 
      {  
 
